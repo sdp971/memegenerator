@@ -1,0 +1,31 @@
+.form-wrapper{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.input-wrapper{
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+    padding: 36px 36px 20px;
+  gap: 17px;
+}
+
+input{
+  width: 230px;
+  height: 35px;
+  text-indent: 5px;
+
+}
+
+button{
+  width: 477px;
+  height: 40px;
+align-self: center;
+background: linear-gradient(to right bottom,#672280,#A626D3);
+border-radius: 5px;
+border: none;
+color: white;
+cursor: pointer;
+}
