@@ -1,9 +1,11 @@
 import './App.css';
-import Header from "../src/components/header/Header"
+import Header from "./components/header/Header"
+import Form from "./components/form/Form";
 
 function App() {
   return <div className='App'>
-    <Header/>
+    <Header />
+    <Form />
   </div>;
 }
 
